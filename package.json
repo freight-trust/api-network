@@ -1,5 +1,5 @@
 {
-  "name": "freightlayer-openapi",
+  "name": "@freight-trust/engine-api-docs",
   "version": "1.0.0",
   "dependencies": {
     "@redocly/openapi-cli": "^0.12.16"

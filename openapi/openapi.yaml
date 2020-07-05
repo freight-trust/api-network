@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: RSSBus OpenAPI
+  title: FreightTrustEngine OpenAPI
   version: 1.0.0
 servers:
   - url: 'https://3.235.53.8/api.rsc/$oas'

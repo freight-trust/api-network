@@ -15,12 +15,9 @@ jobs:
 
   publishAPIDoc:
     executor: node_executor
-          steps:
-            # This job requires that we checkout current branch first to have all the repos.
-            # it will not be used directly as we have the saved workspace
-            # but will enable to checkout gh-pages branch.
-            - checkout
-            - attach_workspace:
+      steps:
+        - checkout
+        - attach_workspace:
                 at: /tmp/workspace
             - run:
                 name: checkout gh pages branch and copy files from workspace

@@ -59,9 +59,9 @@ jobs:
                   rm package.json
                   rm package-lock.json
                   rm generate-versions.js
-            - add_ssh_keys:
-                fingerprints:
-                  - '45:36:58:67:43:15:c6:5f:2c:58:ec:7f:71:e2:e6:ef'
+      #      - add_ssh_keys:
+      #          fingerprints:
+      #            - 'ROTATE KEYS'
             - run:
                 name: Set Git user params
                 command: |

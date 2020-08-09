@@ -2,8 +2,12 @@
   "name": "@freight-trust/engine-api-docs",
   "version": "1.0.0",
   "dependencies": {
+<<<<<<< HEAD
     "@redocly/openapi-cli": "^0.12.16",
     "redoc": "^2.0.0-rc.31"
+=======
+    "@redocly/openapi-cli": "^0.12.16"
+>>>>>>> dae08188972f3c84e60753a0c8462abc6a83f4e3
   },
   "private": true,
   "scripts": {
